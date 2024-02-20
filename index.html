@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>grzesiek bronzowy</title>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: bisque;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        #braun {
+            animation: spinAndMove 4s linear infinite;
+        }
+
+        @keyframes spinAndMove {
+            0%, 100% {
+                transform: translateX(-50%) rotate(0deg);
+            }
+            50% {
+                transform: translateX(0) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Grzesiek Bronzowy sie kreci ale heca</h1>
+    <img id="braun" src="unnamed.jpg" alt="braun1">
+</body>
+
+</html>
